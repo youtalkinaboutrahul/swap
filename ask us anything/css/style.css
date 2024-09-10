@@ -1,0 +1,125 @@
+body {
+  font-family: K2D;
+  background-color: #0d1116;
+}
+.logo {
+  position: fixed;
+  margin-left: 730px;
+  margin-top: 80px;
+}
+h2 {
+  color: white;
+  text-transform: uppercase;
+  margin-top: 140px;
+  margin-left: 650px;
+  position: fixed;
+}
+#box {
+  width: 500px;
+  height: 430px;
+  background: #1c1e26;
+  margin-top: 200px;
+  margin-left: 510px;
+  position: fixed;
+  border-radius: 8px;
+  border: 1.5px solid #484848;
+}
+.text1 {
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #a37aee;
+}
+.text2 {
+  margin-left: 20px;
+  margin-top: 10px;
+  color: white;
+}
+.text3 {
+  color: white;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+label {
+  color: #fff;
+  margin-left: 20px;
+}
+
+form {
+  margin-top: 10px;
+}
+#email {
+  background-color: #0d1116;
+  border: 1.5px solid #484848;
+  border-radius: 5px;
+  padding: 10px;
+  width: 433px;
+  margin-left: 20px;
+  margin-top: 16px;
+  color: #fff;
+}
+#type {
+  background-color: #0d1116;
+  border: 1px solid #484848;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  width: 454px;
+  margin-left: 20px;
+  margin-top: 16px;
+  /* background: #0d1116 url(/images/down.png) no-repeat right 1px; */
+  appearance: none;
+}
+
+.imgdown {
+  margin-left: -8%;
+  margin-top: 30px;
+  height: 8px;
+  position: absolute;
+}
+#questions {
+  background-color: #0d1116;
+  border: 1px solid #484848;
+  border-radius: 5px;
+  height: 80px;
+  padding: 10px;
+  width: 433px;
+  margin-left: 20px;
+  margin-top: 16px;
+  color: #fff;
+}
+#button {
+  background-color: #a37aee;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  width: 455px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 28px;
+  cursor: pointer;
+}
+.join {
+  color: white;
+  margin-top: 660px;
+  position: fixed;
+  margin-left: 580px;
+}
+.social {
+  margin-top: 655px;
+  margin-left: 770px;
+  position: fixed;
+}
+.dis {
+  margin-left: 10px;
+}
+.twit {
+  margin-bottom: 2px;
+  margin-left: 10px;
+}
+.mail {
+  margin-left: 10px;
+}
+.inst {
+  margin-bottom: 3px;
+  margin-left: 10px;
+}

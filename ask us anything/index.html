@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="container">
+      <div class="logo">
+        <a href="#"
+          ><img src="images/logo_white.svg" width="50px" height="50px"
+        /></a>
+      </div>
+
+      <div class="heading">
+        <h2>ask us anything</h2>
+      </div>
+
+      <div id="box">
+        <div class="text1">Get in touch with us</div>
+        <div class="text2">
+          Fill in the form below and our team will contact shortly.
+        </div>
+
+        <form>
+          <label>E-Mail</label><br />
+
+          <input
+            type="text"
+            placeholder="Enter your E-mail"
+            id="email"
+            data-errormsg="Please enter your E-mail"
+            value=""
+            required="Please enter your E-mail"
+          />
+          <select id="type">
+            <option>Type of questions</option>
+            <option>Need help with exchange</option>
+            <option>Integration and Partnership</option>
+            <option>Marketing collaboration</option>
+            <option>Improving the service</option>
+            <option>Other</option>
+          </select>
+
+          <img class="imgdown" src="images/down.png" />
+
+          <input
+            type="text"
+            id="questions"
+            value=""
+            placeholder="Enter your questions"
+            required="Please enter your E-mail"
+          />
+
+          <input type="submit" id="button" value="Send" />
+        </form>
+      </div>
+    </div>
+
+    <div class="join">Join our social networks :</div>
+
+    <div class="social">
+      <a href="#"
+        ><img src="images/discord.png" width="30px" height="30px" class="dis"
+      /></a>
+      <a href="#"
+        ><img src="images/twitter.png" width="25px" height="25px" class="twit"
+      /></a>
+      <a href="#"
+        ><img src="images/mail.png" width="30px" height="30px" class="mail"
+      /></a>
+      <a href="#"
+        ><img
+          src="images/instagram.png"
+          width="25px"
+          height="25px"
+          class="inst"
+      /></a>
+    </div>
+  </body>
+</html>

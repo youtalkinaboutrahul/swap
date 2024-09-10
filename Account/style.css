@@ -1,0 +1,307 @@
+body {
+  background-color: #030202;
+  color: white;
+}
+
+#container {
+  margin-top: 30px;
+  margin-left: 120px;
+  margin-right: 50px;
+}
+
+#Header {
+  position: relative;
+}
+.logo {
+  height: 46px;
+  width: 48px;
+  transition: transform 0.3s;
+}
+
+.logo:hover {
+  transform: translatey(-5px);
+}
+
+.signup {
+  margin-left: 1300px;
+  margin-bottom: 800px;
+  height: 40px;
+  width: 250px;
+  position: absolute;
+  text-align: end;
+  padding-right: 40px;
+  font-size: 16px;
+  right: 100px;
+  top: 1px;
+  border-radius: 10px;
+  border: 1px solid #a37aee;
+  background: none;
+  color: white;
+}
+
+.signup {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
+.signup:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1);
+  background-color: #a37aee;
+}
+
+.ellipse {
+  margin-left: 72%;
+  height: 13px;
+  margin-bottom: 18px;
+}
+
+h3 {
+  position: absolute;
+  font-size: 16px;
+  top: -26px;
+  margin-left: 60px;
+  font-size: 30px;
+  font-family: K2D;
+}
+
+/* Body section */
+
+#rectangle_1 {
+  background: #161c23;
+  border: 2.5px solid #2d3038;
+  border-radius: 5px;
+  margin-left: 95px;
+  width: 1000px;
+  height: 600px;
+  font-size: 14px;
+  padding: 16px;
+  padding-right: 50px;
+  margin-top: 20px;
+}
+
+.startH {
+  position: relative;
+  text-align: center;
+  font-size: 15px;
+  margin-top: -2px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sP {
+  text-align: center;
+  margin-top: -10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.copy {
+  height: 10px;
+}
+
+.cbtn {
+  background-color: #161c23;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+hr {
+  max-width: 100%;
+  opacity: 30%;
+}
+
+.eth {
+  height: 40px;
+  padding-left: 50%;
+  padding-top: 20px;
+}
+
+.fund {
+  text-align: center;
+  font-family: "Inter";
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.grow {
+  height: 25px;
+  background-color: #161c23;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.fund_2 {
+  text-align: center;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -25px;
+}
+
+.buy {
+  height: 40px;
+  padding-left: 35%;
+  cursor: pointer;
+}
+
+.sell {
+  height: 56px;
+  margin-left: 40px;
+  margin-bottom: -7px;
+  cursor: pointer;
+}
+
+.send {
+  height: 40px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.swap {
+  height: 40px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.btns {
+  height: 40px;
+  padding-left: 35.5%;
+  padding-top: 5px;
+  cursor: pointer;
+  font-family: "Inter";
+  font-weight: 500;
+  color: #2f88ff;
+  cursor: pointer;
+}
+
+.sellS {
+  margin-left: 57.5px;
+}
+
+.sendS {
+  margin-left: 50px;
+}
+
+.swapS {
+  margin-left: 44px;
+}
+
+.heading {
+  margin-top: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.Assets {
+  margin-left: 15%;
+}
+
+.Cryptos {
+  text-align: center;
+  margin-top: -35px;
+}
+
+.Activity {
+  margin-left: 78%;
+  margin-top: -35px;
+}
+
+/* .Assets::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 3px;
+  background-color: #a37aee;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.Assets::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+} */
+
+.actP {
+  margin-top: 20px;
+  font-family: "Inter";
+}
+
+.sendLogo {
+  height: 50px;
+}
+
+.send_Text {
+  margin-left: 70px;
+  margin-top: -45px;
+}
+
+.send_Text_2 {
+  margin-left: 70px;
+  margin-top: -5px;
+  color: #848484;
+}
+
+.feb_1 {
+  color: #68da65;
+}
+
+.eth_1 {
+  margin-top: -53px;
+  text-align: end;
+  color: #848484;
+}
+
+.inr_1 {
+  margin-top: -10px;
+  text-align: end;
+  color: #848484;
+}
+
+.actP_2 {
+  margin-top: 20px;
+  font-family: "Inter";
+}
+
+.sendLogo_2 {
+  height: 50px;
+}
+
+.send_Text_3 {
+  margin-left: 70px;
+  margin-top: -45px;
+}
+
+.send_Text_4 {
+  margin-left: 70px;
+  margin-top: -5px;
+  color: #848484;
+}
+
+.feb_2 {
+  color: #68da65;
+}
+
+.eth_2 {
+  margin-top: -53px;
+  text-align: end;
+  color: #848484;
+}
+
+.inr_2 {
+  margin-top: -10px;
+  text-align: end;
+  color: #848484;
+}

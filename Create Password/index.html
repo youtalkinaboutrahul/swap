@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Create Password</title>
+    <link rel="website icon" type="svg" href="./Images/logo_white.svg" />
+  </head>
+  <body>
+    <div id="container">
+      <!-- LOGO -->
+
+      <div id="Header">
+        <img class="logo" src="./Images/logo_white.svg" />
+
+        <h3>Swap</h3>
+
+        <a href=""> <button class="signup" type="button">ENGLISH</button></a>
+
+        <!-- BODY 1 -->
+
+        <div id="rectangle_1">
+          <div class="start">
+            <h3 class="startH">Create Password</h3>
+          </div>
+          <div class="startP">
+            <p class="sP">
+              This password will unlock your MetaMask wallet only on this<br />device.
+              MetaMask can not recover this password.
+            </p>
+          </div>
+          <form id="new" method="get" name="newPass">
+            <label> New password (8 characters min)</label><br />
+            <input
+              type="password"
+              id="new_Pass"
+              name="new_Pass"
+              data-errormsg="Please enter your new password"
+              value=""
+            />
+
+            <div class="confPass">
+              <label> Confirm password </label><br />
+              <input
+                type="password"
+                id="conf_Pass"
+                name="conf_Pass"
+                data-errormsg="Please enter your new password"
+                value=""
+              />
+            </div>
+          </form>
+
+          <div class="checkbox">
+            <input type="checkbox" class="checkbox" name="checkbox" />
+            <label class="checkboxL" for="checkbox"
+              >I understand that MetaMask cannot recover this password for
+              me.<br />
+               <b>Learn more</b></label
+            >
+          </div>
+
+          <a href="../index.html"
+            ><button class="create" type="button">
+              Create a new wallet
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
