@@ -1,0 +1,410 @@
+body {
+  background-color: #030202;
+  color: white;
+}
+
+#container {
+  margin-top: 30px;
+  margin-left: 120px;
+  margin-right: 50px;
+}
+
+@font-face {
+  font-family: Calps;
+  src: url("../Home/Calps\ Sans\ Bold.otf");
+  font-weight: 700;
+}
+
+#Header {
+  position: relative;
+}
+.logo {
+  height: 46px;
+  width: 48px;
+  transition: transform 0.3s;
+}
+
+.logo:hover {
+  transform: translatey(-5px);
+}
+
+.signup {
+  margin-left: 1300px;
+  margin-bottom: 800px;
+  height: 40px;
+  width: 150px;
+  position: absolute;
+  text-align: center;
+  font-size: 16px;
+  right: 100px;
+  top: 1px;
+  border-radius: 10px;
+  border: 1px solid #a37aee;
+  background: none;
+  color: white;
+}
+
+.signup {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
+.signup:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1);
+  background-color: #a37aee;
+}
+
+h3 {
+  position: absolute;
+  font-size: 16px;
+  top: -26px;
+  margin-left: 60px;
+  font-size: 30px;
+  font-family: K2D;
+}
+
+/* Body section */
+
+.text_1 {
+  margin-top: 150px;
+}
+
+.heading_1 {
+  font-size: 56px;
+  margin-bottom: 14px;
+  font-family: "Calps";
+  line-height: 52px;
+}
+
+.miniheading_1 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 30px;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 30px;
+}
+
+.boxAnimation {
+  max-height: 460px;
+  display: block;
+  margin: 40px auto 0;
+  margin-right: 180px;
+  margin-top: -380px;
+}
+
+.swapBtn {
+  margin-top: -80px;
+}
+
+.swap {
+  padding: 12px 36px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 25%;
+  font-size: 14px;
+  font-weight: 700;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  background-color: #a37aee;
+  color: white;
+}
+
+.swap a {
+  color: white;
+  text-decoration: none;
+}
+
+.swap:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1);
+  background-color: #b28ef6;
+}
+
+.stake {
+  padding: 12px 36px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 25%;
+  font-size: 14px;
+  font-weight: 700;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  background-color: #1f2327;
+  color: white;
+  margin-left: 15px;
+}
+
+.stake:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1);
+  background-color: #24282c;
+}
+
+/* Body 2 */
+
+#body_2 {
+  background-color: #181818;
+  margin-top: 150px;
+  height: 750px;
+  max-width: 100%;
+}
+.wallet {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Calps";
+  font-size: 30px;
+}
+
+.vector {
+  padding-top: 120px;
+  max-height: 400px;
+  margin-left: 100px;
+}
+
+.imgRec {
+  max-height: 450px;
+  margin-left: 180px;
+}
+
+.ask {
+  padding: 12px 36px;
+  margin-top: 45px;
+  margin-left: 930px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #a37aee;
+  color: white;
+}
+
+.ask a {
+  color: white;
+  text-decoration: none;
+}
+
+.ask:hover {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.2s;
+  transform: scale(1);
+  background-color: #b28ef6;
+}
+
+/* BOX SWAP WORKS */
+
+/* POOL */
+
+.how {
+  margin-left: 120px;
+  padding-top: 50px;
+  font-family: "Calps";
+  font-size: 30px;
+}
+
+.pool {
+  height: 220px;
+  max-width: 100%;
+  margin-left: 125px;
+}
+
+.poolHeading {
+  font-size: 18px;
+  margin-bottom: 16px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 21px;
+  margin-left: 230px;
+}
+
+.poolP {
+  font-size: 14px;
+  line-height: 2;
+  margin-right: 1000px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* SWAP */
+
+.swap_div {
+  margin-top: -380px;
+}
+
+.swap_1 {
+  height: 220px;
+  max-width: 100%;
+  margin-left: 40%;
+}
+
+.swapHeading {
+  font-size: 18px;
+  margin-bottom: 16px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 21px;
+  margin-left: 48%;
+}
+
+.swapP {
+  font-size: 14px;
+  line-height: 2;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* MANAGE */
+
+.manage_div {
+  margin-top: -350px;
+}
+
+.manage {
+  height: 220px;
+  max-width: 100%;
+  margin-left: 75%;
+}
+
+.manageHeading {
+  font-size: 18px;
+  margin-bottom: 16px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 21px;
+  margin-left: 78%;
+}
+
+.manageP {
+  font-size: 14px;
+  line-height: 2;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 62%;
+}
+
+/* FOOTER */
+
+#footer {
+  background-color: #181818;
+  margin-top: 100px;
+  height: 280px;
+  width: 100%;
+}
+
+.logo_2 {
+  margin-left: 120px;
+  margin-top: 30px;
+  transition: transform 0.3s;
+}
+
+.logo_2:hover {
+  transform: translatey(-5px);
+}
+
+.swap2 {
+  font-size: 16px;
+  font-size: 40px;
+  font-family: K2D;
+  margin-top: -60px;
+  margin-left: 200px;
+}
+
+.logo2P {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 120px;
+  font-weight: 600;
+  margin-top: 30px;
+  line-height: 2;
+}
+
+/* FAQ */
+
+.faqH {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: -168px;
+  margin-left: 43%;
+}
+
+.faqP {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 43%;
+  font-weight: 600;
+  margin-top: 30px;
+  line-height: 2;
+}
+
+/* Donation */
+
+.donation {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: -150px;
+  margin-left: 63%;
+}
+
+.donationP {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 63%;
+  font-weight: 600;
+  margin-top: 30px;
+  line-height: 2;
+}
+
+#socialmedia {
+  text-align: right;
+  margin-right: 23%;
+  margin-top: 30px;
+}
+
+.discord {
+  height: 40px;
+  margin-left: 10px;
+  transition: transform 0.3s;
+}
+
+.discord:hover {
+  transform: translatey(-5px);
+}
+
+.twitter {
+  height: 40px;
+  margin-left: 10px;
+  transition: transform 0.3s;
+}
+
+.twitter:hover {
+  transform: translatey(-5px);
+}
+
+.mail {
+  height: 40px;
+  margin-left: 10px;
+  transition: transform 0.3s;
+}
+
+.mail:hover {
+  transform: translatey(-5px);
+}
+
+.instagram {
+  height: 37px;
+  margin-left: 10px;
+  transition: transform 0.3s;
+}
+
+.instagram:hover {
+  transform: translatey(-5px);
+}
