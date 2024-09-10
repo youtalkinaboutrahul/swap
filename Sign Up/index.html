@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Sign up</title>
+    <link rel="website icon" type="svg" href="logo_white.svg" />
+  </head>
+  <body>
+    <div id="container">
+      <img class="logo" src="logo_white.svg" />
+
+      <!-- Container 1 -->
+
+      <h2>Welcome to Swap.com</h2>
+
+      <!-- Form  -->
+
+      <div id="rectangle_1">
+        <form id="signup" method="get" name="signupReg">
+          <label> Enter your eMail Address </label>
+          <input
+            type="text"
+            id="user_name"
+            name="user_name"
+            data-errormsg="Please enter your name or emial"
+            value=""
+          />
+
+          <!-- USER Phonenumber  -->
+
+          <label> Phone Number </label>
+          <input
+            type="text"
+            id="user_phone"
+            name="user_phone"
+            data-errormsg="Please enter your Phone numer"
+            value="+91 &nbsp;"
+          />
+
+          <!-- USER Password  -->
+
+          <label> Password </label>
+          <input
+            type="password"
+            id="user_password"
+            name="user_password"
+            data-errormsg="Please enter your Password"
+            value=""
+          />
+
+          <!-- Submit Button  -->
+
+          <input class="submit" type="submit" value="Sign up" />
+
+          <!-- Already have an account -->
+
+          <span class="alreadyAccount"
+            >Already have an account? &nbsp;
+            <a class="createAccount" href="../Log in/index.html"> Log in</a>
+          </span>
+        </form>
+      </div>
+
+      <!--  Container 2 -->
+
+      <div id="rectangle_2">
+        <span class="proceeding"> By proceeding, You agree to the </span>
+        <br /><br />
+
+        <a class="Terms" href="#"> Terms of Service</a>
+        <span class="and"> and </span>
+        <a class="Terms" href="#"> Privacy Policy</a>
+      </div>
+    </div>
+  </body>
+</html>

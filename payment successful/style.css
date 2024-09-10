@@ -1,0 +1,88 @@
+body {
+  background-color: #0d1116;
+  color: white;
+  font-family: "Montserrat";
+  align-items: center;
+}
+#container {
+  margin: auto;
+  max-width: 700px;
+}
+.logo {
+  margin-top: 30px;
+  margin-left: 300px;
+}
+.heading_1 {
+  color: #a97eff;
+  font-weight: 570;
+  font-size: 25px;
+  margin-left: 200px;
+}
+.p_1 {
+  font-weight: 540;
+  font-size: 23px;
+  margin-top: 30px;
+}
+.p_2 {
+  font-size: 16px;
+  margin-left: 135px;
+  font-weight: 100;
+  margin-top: 30px;
+}
+.heading_2 {
+  font-weight: 570;
+  font-size: 25px;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+.p_3 {
+  margin-left: 70px;
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: 300;
+  display: inline;
+}
+.p_4 {
+  padding-left: 285px;
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: 300;
+  display: inline;
+}
+.p_5 {
+  margin-left: 70px;
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: 300;
+  display: inline-block;
+}
+.p_6 {
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: 300;
+  display: inline;
+  padding-left: 220px;
+}
+.p_7 {
+  margin-left: 47px;
+  margin-top: 30px;
+  font-weight: 500;
+}
+.p_8 {
+  margin-left: 63px;
+  margin-top: 30px;
+  font-weight: 100;
+}
+.done {
+  height: 40px;
+  width: 150px;
+  background-color: #a97eff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 260px;
+  margin-top: 30px;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+}
