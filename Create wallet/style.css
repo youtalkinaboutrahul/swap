@@ -1,0 +1,169 @@
+body {
+  background-color: #030202;
+  color: white;
+}
+
+#container {
+  margin-top: 30px;
+  margin-left: 120px;
+  margin-right: 50px;
+}
+
+#Header {
+  position: relative;
+}
+.logo {
+  height: 46px;
+  width: 48px;
+  transition: transform 0.3s;
+}
+
+.logo:hover {
+  transform: translatey(-5px);
+}
+
+.signup {
+  margin-left: 1300px;
+  margin-bottom: 800px;
+  height: 40px;
+  width: 150px;
+  position: absolute;
+  text-align: center;
+  font-size: 16px;
+  right: 100px;
+  top: 1px;
+  border-radius: 10px;
+  border: 1px solid #a37aee;
+  background: none;
+  color: white;
+}
+
+.signup {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
+.signup:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1);
+  background-color: #a37aee;
+}
+
+h3 {
+  position: absolute;
+  font-size: 16px;
+  top: -26px;
+  margin-left: 60px;
+  font-size: 30px;
+  font-family: K2D;
+}
+
+/* Body section */
+
+#rectangle_1 {
+  background: #161c23;
+  border: 2.5px solid #2d3038;
+  border-radius: 5px;
+  margin-left: 250px;
+  width: 700px;
+  height: 600px;
+  font-size: 14px;
+  padding: 16px;
+  padding-right: 50px;
+}
+
+.startH {
+  position: relative;
+  text-align: center;
+  margin-right: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sP {
+  text-align: center;
+  margin-top: -40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.png {
+  position: relative;
+  height: 300px;
+  margin-left: 25%;
+}
+
+.checkbox {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+b {
+  color: #4596f3;
+}
+
+.create {
+  display: block;
+  background-color: #a37aee;
+  color: white;
+  text-align: center;
+  width: 285px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-left: 33%;
+  text-decoration: none;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+.create:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1);
+  color: #1e1e1e;
+}
+
+.existing {
+  text-align: center;
+  width: 285px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-left: 33%;
+  text-decoration: none;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border: 1px solid #a37aee;
+  background: none;
+  color: white;
+}
+
+.existing {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
+.existing:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1);
+  background-color: #a37aee;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Login</title>
+    <link rel="website icon" type="svg" href="logo_white.svg" />
+  </head>
+  <body>
+    <div id="container">
+      <img class="logo" src="logo_white.svg" />
+
+      <!-- Container 1 -->
+
+      <h2>Sign in to Swap</h2>
+
+      <!-- Form  -->
+
+      <div id="rectangle_1">
+        <form id="signup" method="get" name="signupReg">
+          <label> Username or eMail Address </label>
+          <input
+            type="text"
+            id="user_name"
+            name="user_name"
+            data-errormsg="Please enter your name or emial"
+            value=""
+          />
+
+          <!-- USER Password  -->
+
+          <label> Password </label>
+          <a class="password_1" href="/Forgot Password/index.html">
+            Forgot Password?</a
+          >
+          <input
+            type="password"
+            id="user_password"
+            name="user_password"
+            data-errormsg="Please enter your Password"
+            value=""
+          />
+
+          <!-- Submit Button  -->
+
+          <input class="submit" type="submit" value="Sign in" />
+        </form>
+      </div>
+
+      <!--  Container 2 -->
+
+      <div id="rectangle_2">
+        <a class="passkey" href="#"> Sign in with a passkey</a> <br />
+        <br />
+
+        <span
+          >New to Swap? &nbsp;
+          <a class="createAccount" href="/Sign Up/index.html">
+            Create an account</a
+          >
+        </span>
+      </div>
+
+      <!-- FOOTER SECTION -->
+
+      <div class="footer">
+        <p>
+          Terms &nbsp;&nbsp; Privacy &nbsp;&nbsp; Docs &nbsp;&nbsp; Contact Swap
+          Support &nbsp;&nbsp; Manage Cookies &nbsp;&nbsp; Do not share my
+          personal informations
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
